@@ -1,0 +1,40 @@
+#!/bin/bash
+#RealTimeServer
+#
+
+start()
+{
+	/bin/bash /usr/local/bin/realTimeServerStart.sh
+}
+
+stop()
+{
+	/bin/bash /usr/local/bin/realTimeServerStop.sh
+}
+
+status()
+{
+	pid=`pidof realTimeServer`
+	if [ "$pid" ];then
+		echo "Real Time Server running with pid: $pid"
+	else
+		echo "Real Time Server stopped"
+	fi
+}
+case $1 in
+	start)
+		start
+	;;
+	stop)
+		stop
+	;;
+	restart)
+		stop
+		sleep 1
+		start
+	;;
+	status)
+		status
+	;;
+esac
+exit 0
