@@ -113,7 +113,6 @@ function handleRequest(request, response){
 						{
 							exec("git -C /var/www/"+names[3]+" pull",function(err,out,code)
 							{
-								console.log(err);
 								if(err==null)
 								{
 									response.end(out)
@@ -126,10 +125,13 @@ function handleRequest(request, response){
 						}
 						else
 						{
-							response.end("");
+							response.end('');
 						}
 					}
-
+					else
+					{
+						response.end('');
+					}
 				}
 				else
 				{

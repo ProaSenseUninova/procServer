@@ -597,3 +597,35 @@ INFO [12:39:59 04-12-2015 (UTC)] - GET - Request from: 172.16.1.50
 null
 INFO [12:40:07 04-12-2015 (UTC)] - GET - Request from: 172.16.1.50
 null
+INFO [13:00:16 04-12-2015 (UTC)] - GET - Request from: undefined
+null
+INFO [13:00:18 04-12-2015 (UTC)] - GET - Request from: undefined
+INFO [13:00:21 04-12-2015 (UTC)] - GET - Request from: undefined
+{ [Error: Command failed: fatal: Cannot change to '/var/www/proasensed': No such file or directory
+] killed: false, code: 128, signal: null }
+INFO [13:00:21 04-12-2015 (UTC)] - GET - Request from: undefined
+INFO [13:00:32 04-12-2015 (UTC)] - GET - Request from: undefined
+{ [Error: Command failed: fatal: Not a git repository (or any of the parent directories): .git
+] killed: false, code: 128, signal: null }
+INFO [13:00:32 04-12-2015 (UTC)] - GET - Request from: undefined
+INFO [13:00:46 04-12-2015 (UTC)] - GET - Request from: undefined
+INFO [13:01:16 04-12-2015 (UTC)] - GET - Request from: undefined
+{ [Error: Command failed: fatal: Not a git repository (or any of the parent directories): .git
+] killed: false, code: 128, signal: null }
+INFO [13:01:16 04-12-2015 (UTC)] - GET - Request from: undefined
+INFO [13:01:27 04-12-2015 (UTC)] - GET - Request from: undefined
+INFO [13:02:20 04-12-2015 (UTC)] - TCP server listening on: http://localhost:8040
+INFO [13:02:20 04-12-2015 (UTC)] - Socket.IO server listening on: http://localhost:8030
+INFO [13:02:20 04-12-2015 (UTC)] - Data server listening on: http://localhost:8080
+INFO [13:02:21 04-12-2015 (UTC)] - GET - Request from: undefined
+INFO [13:02:21 04-12-2015 (UTC)] - GET - Request from: undefined
+INFO [13:02:22 04-12-2015 (UTC)] - GET - Request from: undefined
+INFO [13:02:22 04-12-2015 (UTC)] - GET - Request from: undefined
+INFO [13:02:24 04-12-2015 (UTC)] - GET - Request from: undefined
+INFO [13:02:24 04-12-2015 (UTC)] - GET - Request from: undefined
+INFO [13:02:27 04-12-2015 (UTC)] - GET - Request from: undefined
+INFO [13:02:27 04-12-2015 (UTC)] - GET - Request from: undefined
+INFO [13:02:32 04-12-2015 (UTC)] - GET - Request from: undefined
+INFO [13:02:34 04-12-2015 (UTC)] - GET - Request from: undefined
+INFO [13:02:37 04-12-2015 (UTC)] - GET - Request from: undefined
+INFO [13:02:38 04-12-2015 (UTC)] - GET - Request from: undefined
