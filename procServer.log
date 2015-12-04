@@ -488,3 +488,112 @@ INFO [11:00:20 30-11-2015 (UTC)] - 193.137.127.2:8030 Disconnected
 INFO [11:00:58 30-11-2015 (UTC)] - 193.137.127.2:8030 Disconnected
 INFO [11:00:58 30-11-2015 (UTC)] - New client connected: 193.137.127.2:8030
 INFO [11:02:13 30-11-2015 (UTC)] - 193.137.127.2:8030 Disconnected
+INFO [10:57:16 04-12-2015 (UTC)] - TCP server listening on: http://localhost:8040
+INFO [10:57:16 04-12-2015 (UTC)] - Socket.IO server listening on: http://localhost:8030
+INFO [11:06:25 04-12-2015 (UTC)] - TCP server listening on: http://localhost:8040
+INFO [11:06:25 04-12-2015 (UTC)] - Socket.IO server listening on: http://localhost:8030
+INFO [11:13:55 04-12-2015 (UTC)] - TCP server listening on: http://localhost:8040
+INFO [11:13:55 04-12-2015 (UTC)] - Socket.IO server listening on: http://localhost:8030
+INFO [11:13:55 04-12-2015 (UTC)] - Data server listening on: http://localhost:8080
+INFO [11:14:06 04-12-2015 (UTC)] - GET - Request from: undefined
+INFO [11:14:07 04-12-2015 (UTC)] - GET - Request from: undefined
+INFO [11:14:25 04-12-2015 (UTC)] - TCP server listening on: http://localhost:8040
+INFO [11:14:25 04-12-2015 (UTC)] - Socket.IO server listening on: http://localhost:8030
+INFO [11:14:25 04-12-2015 (UTC)] - Data server listening on: http://localhost:8080
+INFO [11:14:28 04-12-2015 (UTC)] - GET - Request from: undefined
+INFO [11:14:28 04-12-2015 (UTC)] - GET - Request from: undefined
+INFO [11:18:16 04-12-2015 (UTC)] - TCP server listening on: http://localhost:8040
+INFO [11:18:16 04-12-2015 (UTC)] - Socket.IO server listening on: http://localhost:8030
+INFO [11:18:16 04-12-2015 (UTC)] - Data server listening on: http://localhost:8080
+INFO [11:20:29 04-12-2015 (UTC)] - GET - Request from: undefined
+INFO [11:20:44 04-12-2015 (UTC)] - GET - Request from: undefined
+INFO [11:22:48 04-12-2015 (UTC)] - TCP server listening on: http://localhost:8040
+INFO [11:22:48 04-12-2015 (UTC)] - Socket.IO server listening on: http://localhost:8030
+INFO [11:22:48 04-12-2015 (UTC)] - Data server listening on: http://localhost:8080
+INFO [11:22:55 04-12-2015 (UTC)] - GET - Request from: undefined
+INFO [11:22:56 04-12-2015 (UTC)] - GET - Request from: undefined
+INFO [11:24:12 04-12-2015 (UTC)] - GET - Request from: 172.16.1.50
+INFO [11:24:44 04-12-2015 (UTC)] - GET - Request from: 193.137.127.2:35900, 172.16.1.49
+INFO [11:25:44 04-12-2015 (UTC)] - GET - Request from: 193.137.127.2:12385, 172.16.1.49
+INFO [11:26:56 04-12-2015 (UTC)] - GET - Request from: 193.137.127.2:35902, 172.16.1.49
+INFO [11:28:41 04-12-2015 (UTC)] - GET - Request from: 193.137.127.2:36453, 172.16.1.49
+INFO [11:29:46 04-12-2015 (UTC)] - GET - Request from: 193.137.127.2:28021, 172.16.1.49
+INFO [11:31:16 04-12-2015 (UTC)] - GET - Request from: 193.137.127.2:36518, 172.16.1.49
+INFO [11:33:46 04-12-2015 (UTC)] - GET - Request from: 193.137.127.2:28023, 172.16.1.49
+INFO [11:33:47 04-12-2015 (UTC)] - GET - Request from: 193.137.127.2:36518, 172.16.1.49
+INFO [11:33:54 04-12-2015 (UTC)] - GET - Request from: 193.137.127.2:36518, 172.16.1.49
+INFO [11:50:31 04-12-2015 (UTC)] - GET - Request from: 213.30.118.67:32862, 172.16.1.49
+INFO [11:51:39 04-12-2015 (UTC)] - GET - Request from: 192.168.125.31, 193.126.72.90:32503, 172.16.1.49
+INFO [12:33:13 04-12-2015 (UTC)] - TCP server listening on: http://localhost:8040
+INFO [12:33:13 04-12-2015 (UTC)] - Socket.IO server listening on: http://localhost:8030
+INFO [12:33:13 04-12-2015 (UTC)] - Data server listening on: http://localhost:8080
+INFO [12:33:31 04-12-2015 (UTC)] - GET - Request from: undefined
+INFO [12:33:31 04-12-2015 (UTC)] - GET - Request from: undefined
+INFO [12:33:36 04-12-2015 (UTC)] - GET - Request from: undefined
+INFO [12:33:38 04-12-2015 (UTC)] - GET - Request from: undefined
+INFO [12:33:41 04-12-2015 (UTC)] - GET - Request from: undefined
+INFO [12:33:43 04-12-2015 (UTC)] - GET - Request from: undefined
+INFO [12:33:47 04-12-2015 (UTC)] - GET - Request from: undefined
+INFO [12:33:49 04-12-2015 (UTC)] - GET - Request from: undefined
+INFO [12:34:04 04-12-2015 (UTC)] - GET - Request from: undefined
+INFO [12:34:05 04-12-2015 (UTC)] - GET - Request from: undefined
+INFO [12:34:08 04-12-2015 (UTC)] - GET - Request from: undefined
+INFO [12:34:08 04-12-2015 (UTC)] - GET - Request from: undefined
+INFO [12:34:20 04-12-2015 (UTC)] - TCP server listening on: http://localhost:8040
+INFO [12:34:20 04-12-2015 (UTC)] - Socket.IO server listening on: http://localhost:8030
+INFO [12:34:20 04-12-2015 (UTC)] - Data server listening on: http://localhost:8080
+INFO [12:34:21 04-12-2015 (UTC)] - GET - Request from: undefined
+INFO [12:34:21 04-12-2015 (UTC)] - GET - Request from: undefined
+INFO [12:34:42 04-12-2015 (UTC)] - TCP server listening on: http://localhost:8040
+INFO [12:34:42 04-12-2015 (UTC)] - Socket.IO server listening on: http://localhost:8030
+INFO [12:34:42 04-12-2015 (UTC)] - Data server listening on: http://localhost:8080
+INFO [12:34:44 04-12-2015 (UTC)] - GET - Request from: undefined
+INFO [12:34:44 04-12-2015 (UTC)] - GET - Request from: undefined
+INFO [12:35:10 04-12-2015 (UTC)] - TCP server listening on: http://localhost:8040
+INFO [12:35:10 04-12-2015 (UTC)] - Socket.IO server listening on: http://localhost:8030
+INFO [12:35:10 04-12-2015 (UTC)] - Data server listening on: http://localhost:8080
+INFO [12:35:10 04-12-2015 (UTC)] - GET - Request from: undefined
+INFO [12:35:11 04-12-2015 (UTC)] - GET - Request from: undefined
+{ [Error: Command failed: fatal: Cannot change to '/var/www/proasensed': No such file or directory
+] killed: false, code: 128, signal: null }
+INFO [12:35:11 04-12-2015 (UTC)] - GET - Request from: undefined
+INFO [12:35:27 04-12-2015 (UTC)] - GET - Request from: undefined
+null
+INFO [12:36:13 04-12-2015 (UTC)] - TCP server listening on: http://localhost:8040
+INFO [12:36:13 04-12-2015 (UTC)] - Socket.IO server listening on: http://localhost:8030
+INFO [12:36:13 04-12-2015 (UTC)] - Data server listening on: http://localhost:8080
+INFO [12:36:16 04-12-2015 (UTC)] - GET - Request from: undefined
+INFO [12:36:42 04-12-2015 (UTC)] - TCP server listening on: http://localhost:8040
+INFO [12:36:42 04-12-2015 (UTC)] - Socket.IO server listening on: http://localhost:8030
+INFO [12:36:42 04-12-2015 (UTC)] - Data server listening on: http://localhost:8080
+INFO [12:36:46 04-12-2015 (UTC)] - GET - Request from: undefined
+null
+INFO [12:37:10 04-12-2015 (UTC)] - TCP server listening on: http://localhost:8040
+INFO [12:37:10 04-12-2015 (UTC)] - Socket.IO server listening on: http://localhost:8030
+INFO [12:37:10 04-12-2015 (UTC)] - Data server listening on: http://localhost:8080
+INFO [12:37:12 04-12-2015 (UTC)] - GET - Request from: undefined
+null
+INFO [12:37:13 04-12-2015 (UTC)] - GET - Request from: undefined
+INFO [12:37:15 04-12-2015 (UTC)] - GET - Request from: undefined
+{ [Error: Command failed: fatal: Cannot change to '/var/www/proasensefdsf': No such file or directory
+] killed: false, code: 128, signal: null }
+INFO [12:37:16 04-12-2015 (UTC)] - GET - Request from: undefined
+INFO [12:37:21 04-12-2015 (UTC)] - GET - Request from: undefined
+null
+INFO [12:37:22 04-12-2015 (UTC)] - GET - Request from: undefined
+INFO [12:37:30 04-12-2015 (UTC)] - GET - Request from: 193.137.127.2:12386, 172.16.1.49
+INFO [12:37:40 04-12-2015 (UTC)] - GET - Request from: undefined
+INFO [12:38:28 04-12-2015 (UTC)] - TCP server listening on: http://localhost:8040
+INFO [12:38:28 04-12-2015 (UTC)] - Socket.IO server listening on: http://localhost:8030
+INFO [12:38:28 04-12-2015 (UTC)] - Data server listening on: http://localhost:8080
+INFO [12:38:29 04-12-2015 (UTC)] - GET - Request from: undefined
+INFO [12:38:30 04-12-2015 (UTC)] - GET - Request from: undefined
+INFO [12:38:30 04-12-2015 (UTC)] - GET - Request from: undefined
+INFO [12:38:31 04-12-2015 (UTC)] - GET - Request from: undefined
+INFO [12:38:32 04-12-2015 (UTC)] - GET - Request from: 193.137.127.2:12386, 172.16.1.49
+INFO [12:39:45 04-12-2015 (UTC)] - GET - Request from: 193.137.127.2:12386, 172.16.1.49
+null
+INFO [12:39:59 04-12-2015 (UTC)] - GET - Request from: 172.16.1.50
+null
+INFO [12:40:07 04-12-2015 (UTC)] - GET - Request from: 172.16.1.50
+null

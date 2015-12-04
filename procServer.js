@@ -1,11 +1,15 @@
 require('string.prototype.startswith');
-
 var fs = require('fs');
 var util = require('util');
-var log_file = fs.createWriteStream('realTimeServer.log', {flags : 'a'});
+var log_file = fs.createWriteStream('procServer.log', {flags : 'a'});
 var log_stdout = process.stdout;
 var socketIOPort = 8030;
 var tcpPort = 8040;
+var funcPort = 8080;
+var sys = require('sys')
+var exec = require('child_process').exec;
+var http = require('http');
+
 
 function placeZero(n)
 {
@@ -88,3 +92,67 @@ catch(error)
 	log(error,true);
 }
 
+function handleRequest(request, response){
+	var data = '';
+	request.on('data',function(chunk){
+			data=data+chunk;
+		});
+	request.on('end',function(){
+		var address = request.headers['x-forwarded-for'];
+		log(request.method+' - Request from: '+address);
+		var names = request.url.split('/')
+		if(names.length>1)
+		{
+			if(names[1]=="git")
+			{
+				if(names.length>2)
+				{
+					if(names[2]=="pull")
+					{
+						if(names.length>3)
+						{
+							exec("git -C /var/www/"+names[3]+" pull",function(err,out,code)
+							{
+								console.log(err);
+								if(err==null)
+								{
+									response.end(out)
+								}
+								else
+								{
+									response.end(err.toString());
+								}
+							});
+						}
+						else
+						{
+							response.end("");
+						}
+					}
+
+				}
+				else
+				{
+					response.end('');
+				}
+			}
+			else
+			{
+				response.end('');
+			}
+		
+		}
+		else
+		{
+			response.end('');
+		}
+	})
+}
+
+//Create a server
+var server = http.createServer(handleRequest);
+
+//Lets start our server
+server.listen(funcPort, function(){
+    log("Data server listening on: http://localhost:"+funcPort);
+});

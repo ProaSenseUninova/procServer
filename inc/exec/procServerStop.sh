@@ -1,5 +1,5 @@
 #|/bin/bash
-pid=`pidof realTimeServer`
+pid=`pidof procServer`
 if [ "$pid" ];then
 	kill $pid
 fi
