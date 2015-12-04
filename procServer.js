@@ -1,7 +1,7 @@
 require('string.prototype.startswith');
 var fs = require('fs');
 var util = require('util');
-var log_file = fs.createWriteStream('procServer.log', {flags : 'a'});
+var log_file = fs.createWriteStream('/var/log/procServer.log', {flags : 'a'});
 var log_stdout = process.stdout;
 var socketIOPort = 8030;
 var tcpPort = 8040;
