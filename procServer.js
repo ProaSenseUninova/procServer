@@ -103,11 +103,11 @@ function handleRequest(request, response){
 		var names = request.url.split('/')
 		if(names.length>1)
 		{
-			if(names[1]=="git")
+			if(names[1].toLowerCase()=="git")
 			{
 				if(names.length>2)
 				{
-					if(names[2]=="pull")
+					if(names[2].toLowerCase()=="pull")
 					{
 						if(names.length>3)
 						{
@@ -138,6 +138,31 @@ function handleRequest(request, response){
 					response.end('');
 				}
 			}
+			else if(names[1].split("?")[0].toLowerCase()=="startvncserver")
+			{
+				var el = names[1].split("?")[1];
+				var objs = {};
+				var cmd = "sudo -H -u ubuntu vncserver";
+				if(el!==undefined)
+				{
+					objs=QueryString(el);
+				}
+				if(objs.x!==undefined && objs.y!==undefined)
+				{
+					cmd=cmd + " -geometry "+objs.x+"x"+objs.y;
+				}
+				exec(cmd,function(err,out,code)
+				{
+					if(err==null)
+					{
+						response.end(code)
+					}
+					else
+					{
+						response.end(err.toString());
+					}
+				});				
+			}
 			else
 			{
 				response.end('');
@@ -149,6 +174,29 @@ function handleRequest(request, response){
 			response.end('');
 		}
 	})
+}
+
+function QueryString(str) {
+	// This function is anonymous, is executed immediately and
+	// the return value is assigned to QueryString!
+	var query_string = {};
+	var query = str;
+	var vars = query.split("&");
+	for (var i=0;i<vars.length;i++) {
+		var pair = vars[i].split("=");
+		// If first entry with this name
+		if (typeof query_string[pair[0]] === "undefined") {
+			query_string[pair[0]] = decodeURIComponent(pair[1]);
+			// If second entry with this name
+		} else if (typeof query_string[pair[0]] === "string") {
+			var arr = [ query_string[pair[0]],decodeURIComponent(pair[1]) ];
+			query_string[pair[0]] = arr;
+			// If third or later entry with this name
+		} else {
+			query_string[pair[0]].push(decodeURIComponent(pair[1]));
+		}
+	} 
+	return query_string;
 }
 
 //Create a server
