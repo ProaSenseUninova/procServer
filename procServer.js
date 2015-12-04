@@ -44,8 +44,7 @@ try
 	var io = require('socket.io')(socketIOPort)
 	var net = require('net')
 	
-	
-	
+
 	log("TCP server listening on: http://localhost:"+tcpPort);
 	log("Socket.IO server listening on: http://localhost:"+socketIOPort);
 	var ws = net.createServer(function(socket)
@@ -162,6 +161,36 @@ function handleRequest(request, response){
 						response.end(err.toString());
 					}
 				});				
+			}
+			else if(names[1].toLowerCase()=="log")
+			{
+				if(names.length>2)
+				{
+					if(names[2].toLowerCase()=="workspace")
+					{
+
+						exec("tail -n 50 /home/ubuntu/dataServer/dataServer.log",function(err,out,code)
+						{
+							if(err==null)
+							{
+								response.end(out)
+							}
+							else
+							{
+								response.end(err.toString());
+							}
+						});
+						
+					}
+					else
+					{
+						response.end('');
+					}
+				}
+				else
+				{
+					response.end('');
+				}
 			}
 			else
 			{
