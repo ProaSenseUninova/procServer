@@ -99,6 +99,7 @@ function handleRequest(request, response){
 	request.on('end',function(){
 		var address = request.headers['x-forwarded-for'];
 		log(request.method+' - Request from: '+address);
+		log('Requested URL: '+request.url);
 		var names = request.url.split('/')
 		if(names.length>1)
 		{
